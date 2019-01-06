@@ -1,5 +1,14 @@
+#!/usr/bin/env python3
+# -*- coding: utf-8 -*-
+
+__author__='Jay Gao 1219'
+
 import tkinter as tk
 
+class Board(tk.Tk):
+    def __init__(self):
+        super.__init__()
+        self.configure(background='white')
 
 def flash(event, idx=0):
     print(idx)
